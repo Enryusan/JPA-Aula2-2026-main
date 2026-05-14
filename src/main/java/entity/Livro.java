@@ -134,6 +134,10 @@ public class Livro implements Serializable {
         return autores;
     }
 
+    public void setAutores(List<Autor> autores) {
+        this.autores = autores;
+    }
+
     @Override
     public String toString() {
         return "Livro [id=" + id + ", titulo=" + titulo + ", anoPublicacao=" + anoPublicacao
